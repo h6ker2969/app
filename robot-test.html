@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <center>
+    <style>
+      #title {
+        font-family: arial;
+        color: solid black;
+      }
+      body {
+        display: flex;
+      }
+      .btn {
+        border: none;
+      }
+    </style>
+    <h1 id = "title"> Are you a robot? </h1>
+    <button onclick = "check()" class = "btn"> </button>
+    <script>
+      function check() {
+        alert("Passed");
+        document.getElementById("title").innerHTML = "Click me to continue";
+        document.getElementCyId("title").onclick = function() {click()}
+        function click() {
+          window.open("")
+        }
+    </script>
+  </center>
+</html>
